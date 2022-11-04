@@ -15,8 +15,9 @@ This GitHub organization is the main entry point for jQAssistant.
 
 However, we created a universe around it with the following two GitHub organizations to make your life easier:
 
-1. [jQAssistant Plugins](https://github.com/jqassistant-contrib) provides a collection of useful extensions to jQAssistant such as scanners for additional formats, rule sets for frameworks and technologies, and means to report results as e.g. AsciiDoc or rendered PlantUML diagrams.
+1. [jQAssistant Plugin](https://github.com/jqassistant-plugin) provides a collection of useful extensions to jQAssistant such as scanners for additional formats, rule sets for frameworks and technologies, and means to report results as e.g. AsciiDoc or rendered PlantUML diagrams.
 2. [jQAssistant Examples](https://github.com/jqassistant-tutorials) gives an overview of potential use cases including description on how to set them up in your environment. We recommend that every (new) user takes a look at it and be inspired.
+3. [jQAssistant Contrib](https://github.com/jqassistant-contrib) DEPRECATED organization providing plugins for jQAssistant. This is currently being migrated to [jQAssistant Plugin](https://github.com/jqassistant-plugin).
 
 ## Way of contribution
 
