@@ -28,12 +28,12 @@ We're happy about every contribution. To make this as efficient as possible, tak
 * Feature Requests should have a meaningful description, best with an example. If possible to identify, put the feature request into the repository of the part (e.g. core, a plugin, an example) where you expect the feature to be. This saves us a lot of time.
     * We're happy to accept pull requests that implement the request.
 
-For any other topics, feel free to [Contact Us](mailto:info@jqassistant.com)
+For any other topics, feel free to [Contact Us](mailto:info@jqassistant.org)
 
 
 ## Further Information
 
-* [User Manual](https://jqassistant.github.io/jqassistant/doc/1.11.1/manual/)
+* [User Manual](https://jqassistant.github.io/jqassistant/doc/) 
 * [Introduction to jQAssistant in the JavaMagazin (german only)](https://www.buschmais.de/download/JavaMagazin_Artikelserie_jQAssistant.pdf)
 * [jQAssistant Plugins](https://github.com/jqassistant-contrib)
 * [jQAssistant Examples](https://github.com/jqassistant-tutorials)
