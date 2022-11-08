@@ -1,6 +1,6 @@
 # Welcome to jQAssistant :rocket:
 
-![](jQAssistant.jpg)
+![](https://raw.githubusercontent.com/jQAssistant/.github/main/profile/jQAssistant.jpg)
 
 jQAssistant is an Open-Source-Tool that helps you to analyze and control the quality of your software systems. It is centered around three main use cases:
 * Easily carry out [Software Analytics](https://en.wikipedia.org/wiki/Software_analytics) to gain insights on your software systems
