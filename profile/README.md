@@ -1,13 +1,27 @@
 # Welcome to jQAssistant :rocket:
 
-![](https://raw.githubusercontent.com/jQAssistant/.github/main/profile/jQAssistant.jpg)
+![](https://raw.githubusercontent.com/jQAssistant/.github/main/profile/jqa.jpg)
 
 jQAssistant is an Open-Source-Tool that helps you to analyze and control the quality of your software systems. It is centered around three main use cases:
 * Easily carry out [Software Analytics](https://en.wikipedia.org/wiki/Software_analytics) to gain insights into your software systems
 * Continuously verify the correct implementation of targeted design and architecture using provided or user-defined rules to reach defined quality goals
 * Automatically enable [Living Documentation](https://medium.com/geekculture/living-documentation-brief-history-and-evolution-of-the-concept-4492fafb5d7) by generating documentation from the code and validating documentation against the implementation to avoid the documentation-code-gap and confusion
  
-Out-of -the-box, it brings first class support for Maven-Java-based applications including a bunch of default scanners for most used formats like JSON and YAML and default rules for jUnit.  With its plugin-based architecture, it can support a multitude of technologies, frameworks and architectural concepts. And if the provided plug-ins are not enough, it is easy to create your own.
+Out-of-the-box, it brings first class support for Maven-Java-based applications including a bunch of default scanners for most used formats like JSON and YAML and default rules for jUnit.  With its plugin-based architecture, it can support a multitude of technologies, frameworks and architectural concepts. And if the provided plug-ins are not enough, it is easy to create your own. 
+
+Typical technolgoies that are supported by jQAssistant as of now are shown in the visualization below. Note that the technology support may be provided by additional plug-ins from the GitHub organizations listed in section [About the organization](#about-the-organization).
+
+![](https://raw.githubusercontent.com/jQAssistant/.github/main/profile/jqa_universe.jpg)
+
+## The jQAssistant lifecycle
+
+The main aspect for working with jQAssistant is to understand how it is working internally. While this is described in detail in several How-Tos and the official manual (as linked in [Further Information](#further-information)), the high-level overview is shown in below visualization. Mainly, the jQAssistant lifecycle is split into three phases:
+
+* Scan - jQAssistant scans the configured resources such as source/byte code, XML configuration files, Maven build- and dependency-information or documentation artifacts into a Neo4j graph database which is delivered as part of the jQAssistant distribution.
+* Analyze - jQAssistant analyses the structures in the database by executing so called concepts (enrich the graph with additional information) and constraints (validate structures in the graph). These are either defined project-specific by the user or are distributed via plugins. Reports are created containing the constraint violations (returned rows of constraints) and concept results (e.g. enriched/updated data or graphical representations).
+* Server - jQAssistant starts the Neo4j graph database and makes its UI available at http://localhost:7474. This allows the user to develop concepts and constraints or carry out software analytics.
+
+![](https://raw.githubusercontent.com/jQAssistant/.github/main/profile/jqa_process.jpg)
 
 ## About the organization
 
