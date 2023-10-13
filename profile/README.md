@@ -34,6 +34,46 @@ However, we created a universe around it with the following two GitHub organizat
 3. [jQAssistant Tooling](https://github.com/jqassistant-tooling) offers integrations for jQAssistant into other tools such as AsciidoctorJ or SonarQube.
 4. [jQAssistant Archive](https://github.com/jqassistant-archive) contains the history of plugins that were either deprecated and discontinued from ongoing development or plugins that were moved in the context of the jQAssistant 2.0 migration. For the latter case, the old development stat (<2.0.0) can be found in the archive, the newer state in the Plugin organization.
 
+## Quick Start
+
+### Command Line Distribution
+
+- The latest command line distribution is available on [Maven Central](https://search.maven.org/search?q=a:jqassistant-commandline-distribution), select `bin.zip` from the `Download` menu.
+- Download and unpack the distribution, a directory `jqassistant-commandline-distribution-_version_` will be created.
+- Run a scan using ```bin\jqassistant.cmd scan -f lib``` (Windows) or ```bin/jqassistant.sh scan -f lib``` (Linux)
+- Start the embedded server using ```bin\jqassistant.cmd server``` (Windows) or ```bin/jqassistant.sh server``` (Linux) and open the URL ```https://localhost:7474``` in your browser
+- Start exploring using the Neo4j browser!
+- Read the [jQAssistant Tutorials](https://github.com/jqassistant-tutorials) and the [User Manual](https://jqassistant.github.io/jqassistant/doc/) for further information
+
+### Maven
+
+- Add the jQAssistant Maven plugin to your ```pom.xml```:
+```
+<project>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>com.buschmais.jqassistant</groupId>
+                <artifactId>jqassistant-maven-plugin</artifactId>
+                <version>2.0.x</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>scan</goal>
+                            <goal>analyze</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>
+```
+- Run ```mvn verify```
+- Start the embedded server using ```mvn jqassistant:server``` and open the URL ```https://localhost:7474``` in your browser 
+- Start exploring using the Neo4j browser!
+- Read the [jQAssistant Tutorials](https://github.com/jqassistant-tutorials) and the [User Manual](https://jqassistant.github.io/jqassistant/doc/) for further information
+
 ## Way of contribution
 
 We're happy about every contribution. To make this as efficient as possible, take a look at the following guidance:
