@@ -38,7 +38,7 @@ However, we created a universe around it with the following two GitHub organizat
 
 ### Command Line Distribution
 
-- The latest command line distribution is available on [Maven Central](https://search.maven.org/search?q=a:jqassistant-commandline-distribution), select `bin.zip` from the `Download` menu.
+- The latest command line distributions is available on Maven Central for [Java 11](https://central.sonatype.com/artifact/com.buschmais.jqassistant.cli/jqassistant-commandline-neo4jv4/versions) and [Java 17 or later](https://central.sonatype.com/artifact/com.buschmais.jqassistant.cli/jqassistant-commandline-neo4jv5/versions). Just click `Browse`, select the desired version and download the `*-distribution.zip`.
 - Download and unpack the distribution, a directory `jqassistant-commandline-distribution-_version_` will be created.
 - Run a scan using ```bin\jqassistant.cmd scan -f lib``` (Windows) or ```bin/jqassistant.sh scan -f lib``` (Linux)
 - Start the embedded server using ```bin\jqassistant.cmd server``` (Windows) or ```bin/jqassistant.sh server``` (Linux) and open the URL ```https://localhost:7474``` in your browser
