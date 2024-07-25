@@ -90,7 +90,7 @@ For any other topics, feel free to [Contact Us](mailto:info@jqassistant.org)
 
 ## Further Information
 
-* [User Manual](https://jqassistant.github.io/jqassistant/doc/) 
+* [User Manual](https://jqassistant.github.io/jqassistant/current/) 
 * [Introduction to jQAssistant in the JavaMagazin (german only)](https://www.buschmais.de/download/JavaMagazin_Artikelserie_jQAssistant.pdf)
 * [jQAssistant Plugins](https://github.com/jqassistant-plugin)
 * [jQAssistant Tutorials](https://github.com/jqassistant-tutorials)
