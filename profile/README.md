@@ -72,7 +72,7 @@ However, we created a universe around it with the following two GitHub organizat
 - Run ```mvn verify```
 - Start the embedded server using ```mvn jqassistant:server``` and open the URL ```https://localhost:7474``` in your browser 
 - Start exploring using the Neo4j browser!
-- Read the [jQAssistant Tutorials](https://github.com/jqassistant-tutorials) and the [User Manual](https://jqassistant.github.io/jqassistant/doc/) for further information
+- Read the [jQAssistant Tutorials](https://github.com/jqassistant-tutorials) and the [User Manual](https://jqassistant.github.io/jqassistant/current/) for further information
 
 ## Way of contribution
 
