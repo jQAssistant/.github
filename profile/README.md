@@ -43,7 +43,7 @@ However, we created a universe around it with the following two GitHub organizat
 - Run a scan using ```bin\jqassistant.cmd scan -f lib``` (Windows) or ```bin/jqassistant.sh scan -f lib``` (Linux)
 - Start the embedded server using ```bin\jqassistant.cmd server``` (Windows) or ```bin/jqassistant.sh server``` (Linux) and open the URL ```https://localhost:7474``` in your browser
 - Start exploring using the Neo4j browser!
-- Read the [jQAssistant Tutorials](https://github.com/jqassistant-tutorials) and the [User Manual](https://jqassistant.github.io/jqassistant/doc/) for further information
+- Read the [jQAssistant Tutorials](https://github.com/jqassistant-tutorials) and the [User Manual](https://jqassistant.github.io/jqassistant/) for further information
 
 ### Maven
 
@@ -72,7 +72,7 @@ However, we created a universe around it with the following two GitHub organizat
 - Run ```mvn verify```
 - Start the embedded server using ```mvn jqassistant:server``` and open the URL ```https://localhost:7474``` in your browser 
 - Start exploring using the Neo4j browser!
-- Read the [jQAssistant Tutorials](https://github.com/jqassistant-tutorials) and the [User Manual](https://jqassistant.github.io/jqassistant/current/) for further information
+- Read the [jQAssistant Tutorials](https://github.com/jqassistant-tutorials) and the [User Manual](https://jqassistant.github.io/jqassistant/) for further information
 
 ## Way of contribution
 
@@ -90,7 +90,7 @@ For any other topics, feel free to [Contact Us](mailto:info@jqassistant.org)
 
 ## Further Information
 
-* [User Manual](https://jqassistant.github.io/jqassistant/current/) 
+* [User Manual](https://jqassistant.github.io/jqassistant/) 
 * [Introduction to jQAssistant in the JavaMagazin (german only)](https://www.buschmais.de/download/JavaMagazin_Artikelserie_jQAssistant.pdf)
 * [jQAssistant Plugins](https://github.com/jqassistant-plugin)
 * [jQAssistant Tutorials](https://github.com/jqassistant-tutorials)
