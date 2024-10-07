@@ -7,9 +7,10 @@ jQAssistant is an Open-Source-Tool that helps you to analyze and control the qua
 * Continuously verify the correct implementation of targeted design and architecture using provided or user-defined rules to reach defined quality goals
 * Automatically enable [Living Documentation](https://medium.com/geekculture/living-documentation-brief-history-and-evolution-of-the-concept-4492fafb5d7) by generating documentation from the code and validating documentation against the implementation to avoid the documentation-code-gap and confusion
  
-Out-of-the-box, it brings first class support for Maven-Java-based applications including a bunch of default scanners for most used formats like JSON and YAML and default rules for jUnit.  With its plugin-based architecture, it can support a multitude of technologies, frameworks and architectural concepts. And if the provided plug-ins are not enough, it is easy to create your own. 
+Out-of-the-box, it brings first class support for **Java** based applications including a bunch of default scanners for most used formats like **XML**, **JSON** or **YAML** and default rules for **jUnit**.  With its plugin-based architecture, it can support a multitude of technologies, frameworks and architectural concepts. And if the out-of-the-box plug-ins are not enough, then there's a [collection of plugins](https://github.com/jqassistant-plugin) available, e.g. for **TypeScript**, **Dart**, **Spring**, **C4**, etc.
+Or you can easily create your own plugin where needed.  
 
-Typical technolgoies that are supported by jQAssistant as of now are shown in the visualization below. Note that the technology support may be provided by additional plug-ins from the GitHub organizations listed in section [About the organization](#about-the-organization).
+Typical technologies that are supported by jQAssistant as of now are shown in the visualization below. Note that the technology support may be provided by additional plug-ins from the GitHub organizations listed in section [About the organization](#about-the-organization).
 
 ![](https://raw.githubusercontent.com/jQAssistant/.github/main/profile/jqa_universe.jpg)
 
@@ -55,7 +56,7 @@ However, we created a universe around it with the following two GitHub organizat
             <plugin>
                 <groupId>com.buschmais.jqassistant</groupId>
                 <artifactId>jqassistant-maven-plugin</artifactId>
-                <version>2.0.x</version>
+                <version>2.x.x</version>
                 <executions>
                     <execution>
                         <goals>
@@ -83,7 +84,7 @@ We're happy about every contribution. To make this as efficient as possible, tak
 * Feature Requests should have a meaningful description, best with an example. If possible to identify, put the feature request into the repository of the part (e.g. core, a plugin, an example) where you expect the feature to be. This saves us a lot of time.
     * We're happy to accept pull requests that implement the request.
 
-We also provide an Idea Hub for all your great ideas and to host discussions around jQAssistant at [Idea-Hub](https://github.com/jQAssistant/Idea-Hub).
+We also provide an Idea Hub for all your great ideas and to host discussions about jQAssistant at [Idea-Hub](https://github.com/jQAssistant/Idea-Hub).
 
 For any other topics, feel free to [Contact Us](mailto:info@jqassistant.org)
 
@@ -93,5 +94,6 @@ For any other topics, feel free to [Contact Us](mailto:info@jqassistant.org)
 * [User Manual](https://jqassistant.github.io/jqassistant/) 
 * [Introduction to jQAssistant in the JavaMagazin (german only)](https://www.buschmais.de/download/JavaMagazin_Artikelserie_jQAssistant.pdf)
 * [jQAssistant Plugins](https://github.com/jqassistant-plugin)
+* [Kontext E Plugins for jQAssistant](https://github.com/orgs/kontext-e/repositories)
 * [jQAssistant Tutorials](https://github.com/jqassistant-tutorials)
 * [Migration Guide 1.x - 2.0](https://github.com/jqassistant-tutorials/jqassistant-101/blob/master/migration-guides/1.x-2.0.adoc)
