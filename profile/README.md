@@ -2,6 +2,9 @@
 
 ![](https://raw.githubusercontent.com/jQAssistant/.github/main/profile/jqa.jpg)
 
+<!-- TOC -->
+<!-- /TOC -->
+
 jQAssistant is an Open-Source-Tool that helps you to analyze and control the quality of your software systems. It is centered around three main use cases:
 * Easily carry out [Software Analytics](https://en.wikipedia.org/wiki/Software_analytics) to gain insights into your software systems
 * Continuously verify the correct implementation of targeted design and architecture using provided or user-defined rules to reach defined quality goals
@@ -75,7 +78,7 @@ However, we created a universe around it with the following two GitHub organizat
 - Start exploring using the Neo4j browser!
 - Read the [jQAssistant Tutorials](https://github.com/jqassistant-tutorials) and the [User Manual](https://jqassistant.github.io/jqassistant/) for further information
 
-## Way of contribution
+## Contributions
 
 We're happy about every contribution. To make this as efficient as possible, take a look at the following guidance:
 
@@ -88,6 +91,22 @@ We also provide an Idea Hub for all your great ideas and to host discussions abo
 
 For any other topics, feel free to [Contact Us](mailto:info@jqassistant.org)
 
+
+## News
+
+- **2026-01-25**
+  - [jQAssistant Codecharta Plugin](https://github.com/jqassistant-plugin/jqassistant-codecharta-plugin) 1.0.0 released
+- **2026-01-20**
+  - jQAssistant 2.9.0-RC1 released
+    - [Overriding of rules](https://jqassistant.github.io/jqassistant/snapshot/#_overriding_rules)
+    - [Key columns for concepts and constraints](https://jqassistant.github.io/jqassistant/snapshot/#_key_columns)
+    - [Mark concepts as abstract](https://jqassistant.github.io/jqassistant/snapshot/#_rule_dependencies)
+    - [Separated of Java annotations into separate dependency](https://jqassistant.github.io/jqassistant/snapshot/#_annotations)
+    - Searchable HTML report in a reword look & feel
+    - Create HTML report during `analyze` goal/task
+    - Re-use already loaded configurations in Maven multi-module reactors (performance improvement in slow build environments)
+    - Fixed compatibility with Java 11 and Maven 3.9.12
+    - Fixed concept `java:VirtualInvokes` to correctly consider siblings in inheritance hierarchies
 
 ## Further Information
 
