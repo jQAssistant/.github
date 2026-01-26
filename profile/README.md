@@ -2,8 +2,15 @@
 
 ![](https://raw.githubusercontent.com/jQAssistant/.github/main/profile/jqa.jpg)
 
-<!-- TOC -->
-<!-- /TOC -->
+- [Overview](#overview)
+- [The jQAssistant lifecycle](#the-jqassistant-lifecycle)
+- [About the organization](#about-the-organization)
+- [Quick Start](#quick-start)
+- [Contributions](#contributions)
+- [News](#news)
+- [Further inforamation](#further-information)
+
+## Overview
 
 jQAssistant is an Open-Source-Tool that helps you to analyze and control the quality of your software systems. It is centered around three main use cases:
 * Easily carry out [Software Analytics](https://en.wikipedia.org/wiki/Software_analytics) to gain insights into your software systems
@@ -21,9 +28,9 @@ Typical technologies that are supported by jQAssistant as of now are shown in th
 
 The main aspect for working with jQAssistant is to understand how it is working internally. While this is described in detail in several How-Tos and the official manual (as linked in [Further Information](#further-information)), the high-level overview is shown in below visualization. Mainly, the jQAssistant lifecycle is split into three phases:
 
-* Scan - jQAssistant scans the configured resources such as source/byte code, XML configuration files, Maven build- and dependency-information or documentation artifacts into a Neo4j graph database which is delivered as part of the jQAssistant distribution.
-* Analyze - jQAssistant analyses the structures in the database by executing so called concepts (enrich the graph with additional information) and constraints (validate structures in the graph). These are either defined project-specific by the user or are distributed via plugins. Reports are created containing the constraint violations (returned rows of constraints) and concept results (e.g. enriched/updated data or graphical representations).
-* Server - jQAssistant starts the Neo4j graph database and makes its UI available at http://localhost:7474. This allows the user to develop concepts and constraints or carry out software analytics.
+* **Scan** - jQAssistant scans the configured resources such as source/byte code, XML configuration files, Maven build- and dependency-information or documentation artifacts into a Neo4j graph database which is delivered as part of the jQAssistant distribution.
+* **Analyze** - jQAssistant analyses the structures in the database by executing so called concepts (enrich the graph with additional information) and constraints (validate structures in the graph). These are either defined project-specific by the user or are distributed via plugins. Reports are created containing the constraint violations (returned rows of constraints) and concept results (e.g. enriched/updated data or graphical representations).
+* **Server** - jQAssistant starts the Neo4j graph database and makes its UI available at http://localhost:7474. This allows the user to develop concepts and constraints or carry out software analytics.
 
 ![](https://raw.githubusercontent.com/jQAssistant/.github/main/profile/jqa_process.jpg)
 
