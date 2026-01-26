@@ -1,5 +1,3 @@
-# Welcome to jQAssistant :rocket:
-
 ![](https://raw.githubusercontent.com/jQAssistant/.github/main/profile/jqa.jpg)
 
 - [Overview](#overview)
@@ -10,7 +8,7 @@
 - [News](#news)
 - [Further inforamation](#further-information)
 
-## Overview
+# Overview
 
 jQAssistant is an Open-Source-Tool that helps you to analyze and control the quality of your software systems. It is centered around three main use cases:
 * Easily carry out [Software Analytics](https://en.wikipedia.org/wiki/Software_analytics) to gain insights into your software systems
@@ -24,7 +22,7 @@ Typical technologies that are supported by jQAssistant as of now are shown in th
 
 ![](https://raw.githubusercontent.com/jQAssistant/.github/main/profile/jqa_universe.jpg)
 
-## The jQAssistant lifecycle
+# The jQAssistant lifecycle
 
 The main aspect for working with jQAssistant is to understand how it is working internally. While this is described in detail in several How-Tos and the official manual (as linked in [Further Information](#further-information)), the high-level overview is shown in below visualization. Mainly, the jQAssistant lifecycle is split into three phases:
 
@@ -34,7 +32,7 @@ The main aspect for working with jQAssistant is to understand how it is working 
 
 ![](https://raw.githubusercontent.com/jQAssistant/.github/main/profile/jqa_process.jpg)
 
-## About the organization
+# About the organization
 
 This GitHub organization is the main entry point for jQAssistant. 
 
@@ -45,9 +43,9 @@ However, we created a universe around it with the following two GitHub organizat
 3. [jQAssistant Tooling](https://github.com/jqassistant-tooling) offers integrations for jQAssistant into other tools such as AsciidoctorJ or SonarQube.
 4. [jQAssistant Archive](https://github.com/jqassistant-archive) contains the history of plugins that were either deprecated and discontinued from ongoing development or plugins that were moved in the context of the jQAssistant 2.0 migration. For the latter case, the old development stat (<2.0.0) can be found in the archive, the newer state in the Plugin organization.
 
-## Quick Start
+# Quick Start
 
-### Command Line Distribution
+## Command Line Distribution
 
 - The latest command line distributions is available on Maven Central for [Java 11](https://central.sonatype.com/artifact/com.buschmais.jqassistant.cli/jqassistant-commandline-neo4jv4/versions) and [Java 17 or later](https://central.sonatype.com/artifact/com.buschmais.jqassistant.cli/jqassistant-commandline-neo4jv5/versions). Just click `Browse`, select the desired version and download the `*-distribution.zip`.
 - Download and unpack the distribution, a directory `jqassistant-commandline-distribution-_version_` will be created.
@@ -56,7 +54,7 @@ However, we created a universe around it with the following two GitHub organizat
 - Start exploring using the Neo4j browser!
 - Read the [jQAssistant Tutorials](https://github.com/jqassistant-tutorials) and the [User Manual](https://jqassistant.github.io/jqassistant/) for further information
 
-### Maven
+## Maven
 
 - Add the jQAssistant Maven plugin to your ```pom.xml```:
 ```
@@ -85,7 +83,7 @@ However, we created a universe around it with the following two GitHub organizat
 - Start exploring using the Neo4j browser!
 - Read the [jQAssistant Tutorials](https://github.com/jqassistant-tutorials) and the [User Manual](https://jqassistant.github.io/jqassistant/) for further information
 
-## Contributions
+# Contributions
 
 We're happy about every contribution. To make this as efficient as possible, take a look at the following guidance:
 
@@ -99,7 +97,7 @@ We also provide an Idea Hub for all your great ideas and to host discussions abo
 For any other topics, feel free to [Contact Us](mailto:info@jqassistant.org)
 
 
-## News
+# News
 
 - **2026-01-25**
   - [jQAssistant Codecharta Plugin](https://github.com/jqassistant-plugin/jqassistant-codecharta-plugin) 1.0.0 released
@@ -115,7 +113,7 @@ For any other topics, feel free to [Contact Us](mailto:info@jqassistant.org)
     - Fixed compatibility with Java 11 and Maven 3.9.12
     - Fixed concept `java:VirtualInvokes` to correctly consider siblings in inheritance hierarchies
 
-## Further Information
+# Further Information
 
 * [User Manual](https://jqassistant.github.io/jqassistant/) 
 * [Introduction to jQAssistant in the JavaMagazin (german only)](https://www.buschmais.de/download/JavaMagazin_Artikelserie_jQAssistant.pdf)
