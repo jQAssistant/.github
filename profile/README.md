@@ -117,7 +117,6 @@ For any other topics, feel free to [Contact Us](mailto:info@jqassistant.org)
 
 * [User Manual](https://jqassistant.github.io/jqassistant/) 
 * [Introduction to jQAssistant in the JavaMagazin (german only)](https://www.buschmais.de/download/JavaMagazin_Artikelserie_jQAssistant.pdf)
+* [jQAssistant Tutorials](https://github.com/jqassistant-tutorials)
 * [jQAssistant Plugins](https://github.com/jqassistant-plugin)
 * [Kontext E Plugins for jQAssistant](https://github.com/orgs/kontext-e/repositories)
-* [jQAssistant Tutorials](https://github.com/jqassistant-tutorials)
-* [Migration Guide 1.x - 2.0](https://github.com/jqassistant-tutorials/jqassistant-101/blob/master/migration-guides/1.x-2.0.adoc)
