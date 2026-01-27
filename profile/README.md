@@ -99,6 +99,8 @@ For any other topics, feel free to [Contact Us](mailto:info@jqassistant.org)
 
 # News
 
+- **2026-01-26**
+  - [jQAssistant C4 Plugin](https://github.com/jqassistant-plugin/jqassistant-c4-plugin) 2.2.0 released
 - **2026-01-25**
   - [jQAssistant Codecharta Plugin](https://github.com/jqassistant-plugin/jqassistant-codecharta-plugin) 1.0.0 released
 - **2026-01-20**
