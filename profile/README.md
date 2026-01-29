@@ -105,7 +105,7 @@ For any other topics, feel free to [Contact Us](mailto:info@jqassistant.org)
     - [Key columns for concepts and constraints](https://jqassistant.github.io/jqassistant/snapshot/#_key_columns)
     - [Mark concepts as abstract](https://jqassistant.github.io/jqassistant/snapshot/#_rule_dependencies)
     - [Separated of Java annotations into separate dependency](https://jqassistant.github.io/jqassistant/snapshot/#_annotations)
-    - Searchable HTML report in a reword look & feel
+    - Searchable HTML report in a reworked look & feel
     - Create HTML report during `analyze` goal/task
     - Re-use already loaded configurations in Maven multi-module reactors (performance improvement in slow build environments)
     - Fixed compatibility with Java 11 and Maven 3.9.12
