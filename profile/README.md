@@ -100,7 +100,7 @@ For any other topics, feel free to [Contact Us](mailto:info@jqassistant.org)
 # News
 
 - **2026-01-28**
-  - jQAssistant 2.9.0 released
+  - jQAssistant 2.9.0 released ([Changelog](https://github.com/jQAssistant/jqassistant/releases/tag/2.9.0))
     - [Overriding of rules](https://jqassistant.github.io/jqassistant/snapshot/#_overriding_rules)
     - [Key columns for concepts and constraints](https://jqassistant.github.io/jqassistant/snapshot/#_key_columns)
     - [Mark concepts as abstract](https://jqassistant.github.io/jqassistant/snapshot/#_rule_dependencies)
@@ -109,7 +109,7 @@ For any other topics, feel free to [Contact Us](mailto:info@jqassistant.org)
     - Create HTML report during `analyze` goal/task
     - Re-use already loaded configurations in Maven multi-module reactors (performance improvement in slow build environments)
     - Fixed compatibility with Java 11 and Maven 3.9.12
-    - Fixed concept `java:VirtualInvokes` to correctly consider siblings in inheritance hierarchies
+    - Fixed concept `java:VirtualInvokes` to correctly consider siblings in inheritance hierarchies 
 - **2026-01-26**
   - [jQAssistant C4 Plugin](https://github.com/jqassistant-plugin/jqassistant-c4-plugin) 2.2.0 released
 - **2026-01-25**
